@@ -1,8 +1,8 @@
 ---
 date: "2019-02-25T13:38:41-06:00"
-description: You can contact me via this form or just drop me an email via [muhammetozk@icloud.com](mailto:muhammetozk@icloud.com)
+description: You can contact me via this form or just drop me an email at [muhammetozk@icloud.com](mailto:muhammetozk@icloud.com)
 draft: false
-formspree_form_id: muhammetozk@icloud.com
+formspree_form_id: "xlezgdjy"
 layout: split-right
 name: Contact Us Form
 show_poweredby_formspree: true

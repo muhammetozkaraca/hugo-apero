@@ -1,4 +1,5 @@
 ---
+title: Blog
 author: Muhammet Ozkaraca
 cascade:
   author: Muhammet Ozkaraca
@@ -22,7 +23,7 @@ sidebar:
   show_sidebar_adunit: true
   text_link_label: 
   text_link_url: /index.xml
-  title: What I am doing here?
+  title: What am I doing here?
 thumbnail_left: true
 title: A Blog That Works
 ---

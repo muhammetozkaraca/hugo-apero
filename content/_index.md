@@ -9,7 +9,7 @@ images:
 show_action_link: true
 show_social_links: true
 subtitle: AN ASPIRING SOCIAL SCIENTIST WHO LOVES POLITICS, MOVIES, FOOTBALL AND LITERATURE
-text_align_left: false
+text_align_left: true
 title: Muhammet Ozkaraca
 type: home
 ---
