@@ -18,8 +18,11 @@ date: "2021-11-05"
 <h1>Becoming acquainted with <code>blastula</code></h1>
 <p>In R, there are various tools that can assist in sending automated emails, and <code>blastula</code> is one of them. This package basically allows you to send automated emails to several people; however, I’m not sure if there is a limit. Apart from being free, this also allows you to customize email templates in a markdown environment by using both markdown and html syntax.</p>
 <p>Let’s start by installing <code>blastula</code>. Please note that I also installed the <code>keyring</code> package, as when I first installed <code>blastula</code> alone, I received an error advising me to do so. Therefore, in case you might encounter something similar, I suggest you install both packages.</p>
-<pre class="r"><code>library(blastula)
-library(keyring)</code></pre>
+<pre class="r"><code>
+```r
+library(blastula)
+library(keyring)
+```</code></pre>
 <p>For advanced R users who need further information on the different features of <code>blastula</code>, <a href="https://cran.r-project.org/web/packages/blastula/blastula.pdf">this document</a> can be useful. I will not go over all of these details in this post simply because this tutorial is geared for everyone, including beginner users. Instead, I’ll go through the fundamentals. If you want, feel free to look at this document.</p>
 <p>Please open a new R markdown document now. I recommend deleting all of the YAML and simply keeping the following code chunk in your YAML. Don’t be concerned if you don’t know what YAML is. The basic thing I know about YAML’s functionality, and I believe it is more than enough at this time, is that it informs R about the output you wish to obtain after your coding. <code>output: blastula::blastula email</code> tells R that you want to utilize the <code>blastula</code> package to create an email from it, which is exactly what we want.</p>
 <p>Please also note that you do not have to open a new R markdown document to customize your email template. <code>blastula</code> offers some specific functions, such as <code>compose_email</code> that can help you compose your email. However, I feel it is more user friendly to do this same functionality in a different Rmarkdown document. In case you wish to look at <code>compose_email</code> argument, <a href="https://cran.r-project.org/web/packages/blastula/blastula.pdf">the same document</a> I mentioned above might be convenient for you.</p>

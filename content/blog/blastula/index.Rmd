@@ -22,10 +22,12 @@ In R, there are various tools that can assist in sending automated emails, and `
 
 Let's start by installing `blastula`. Please note that I also installed the `keyring` package, as when I first installed `blastula` alone, I received an error advising me to do so. Therefore, in case you might encounter something similar, I suggest you install both packages. 
 
+````r
 ```{r, warning=FALSE, message=FALSE, echo=TRUE}
 library(blastula)
 library(keyring)
 ```
+````
 
 For advanced R users who need further information on the different features of `blastula`, [this document](https://cran.r-project.org/web/packages/blastula/blastula.pdf) can be useful. I will not go over all of these details in this post simply because this tutorial is geared for everyone, including beginner users. Instead, I'll go through the fundamentals. If you want, feel free to look at this document.
 
