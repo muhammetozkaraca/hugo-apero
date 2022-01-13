@@ -33,7 +33,7 @@ enableEmoji = true
   description = "Personal website and portfolio of Muhammet Ozkaraca"
   favicon = "/img/favicon.ico"
   logo = "/img/penguin.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "project", "talk", "MA Thesis"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "water"
+  theme = "poppy"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -130,9 +130,9 @@ enableEmoji = true
     url = "/talk/"
     weight = 4
   [[menu.header]]
-    name = "A collection"
-    title = "A collection"
-    url = "/collection/"
+    name = "MA Thesis"
+    title = "MA Thesis"
+    url = "/master-thesis/"
     weight = 5
   [[menu.header]]
     name = "Elements"
