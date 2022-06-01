@@ -134,11 +134,7 @@ enableEmoji = true
     title = "MA Thesis"
     url = "/master-thesis/"
     weight = 5
-  [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
+
     
   # Configure footer  
   [[menu.footer]]
