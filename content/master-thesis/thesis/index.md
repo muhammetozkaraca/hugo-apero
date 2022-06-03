@@ -20,7 +20,7 @@ links:
   url: https://github.com/muhammetozkaraca/Master-Thesis
 location: Vienna, Austria
 show_post_time: false
-subtitle: Testing
+subtitle: Secularism as an Antidote to Religious Terrorism - The Case of Turkey
 title: Master Thesis
 ---
 
